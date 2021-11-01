@@ -1,0 +1,11 @@
+--- conf/ices.conf.dist.in~	2003-07-09 02:36:45.000000000 +0200
++++ conf/ices.conf.dist.in	2003-07-17 19:47:15.000000000 +0200
+@@ -23,7 +23,7 @@
+     <!-- This directory specifies where ices should put the logfile, cue file
+ 	 and pid file (if daemonizing). Don't use /tmp if you have l33t h4x0rz
+          on your server. -->
+-    <BaseDirectory>/tmp</BaseDirectory>
++         <BaseDirectory>/var/log/ices</BaseDirectory>
+   </Execution>
+ 
+   <Stream>

@@ -1,0 +1,12 @@
+diff -Naur ices-0.4/src/setup.c ices-0.4-new/src/setup.c
+--- ices-0.4/src/setup.c	2004-07-31 06:13:35.000000000 -0300
++++ ices-0.4-new/src/setup.c	2007-01-15 13:33:47.000000000 -0200
+@@ -620,7 +620,7 @@
+   if (icespid != 0) {
+     /* Update the pidfile (so external applications know what pid
+        ices is running with. */
+-    printf ("Into the land of the dreaded daemons we go... (pid: %d)\n", icespid);
++    printf (" (pid: %d)\n", icespid);
+     ices_setup_shutdown ();
+   }
+ #ifdef HAVE_SETSID
